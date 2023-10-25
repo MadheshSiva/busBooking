@@ -1,0 +1,66 @@
+/* DatePickerTheme.css */
+
+/* Change the background color of the calendar */
+.CalendarDay{
+  font-size: 12px;
+  font-weight: 800;
+}
+
+/* Change the color of the selected date */
+.DayPicker_weekHeader {
+ font-weight: 500;
+ 
+  color: #ff1a4f;
+}
+
+/* Change the color of the hover effect on dates */
+.DateInput_input__focused {
+  border:none;
+}
+.DateInput_input{
+  font-weight: 500;
+  outline: 0px;
+}
+/* Change the color of the current day */
+.CalendarDay__today {
+  color: #007bff;
+}
+
+/* Change the color of the weekdays */
+.DayPicker_weekday {
+  color: #007bff;
+}
+
+/* Customize the style of the date input */
+.CalendarDay__default {
+  border: none;
+}
+.DayPickerNavigation_button__horizontalDefault{
+  border-radius: 9999px;
+  padding: 6px;
+  
+}
+.SingleDatePicker_picker{
+  border-radius:13px ;
+}
+.DayPicker__withBorder{
+  border-radius: 13px;
+}
+/* Customize the color of the focused input */
+.SingleDatePickerInput:focus {
+ 
+}
+.DayPicker_transitionContainer{
+  border-radius:13px ;
+}
+/* Customize the style of the clear date button */
+.SingleDatePicker_picker .DateInput_clearDate {
+  color: #007bff;
+  font-weight: bold;
+}
+.CalendarDay:focus{
+  border-radius: 9999px;
+}
+.CalendarDay__focused{
+  border-radius:9999px ;
+}

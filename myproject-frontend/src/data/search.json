@@ -1,0 +1,252 @@
+[{
+    "Stop":"Coimbatore",
+    "State":"Coimbatore, Tamil Nadu"
+},
+{
+    "Stop":"Chennai",
+    "State":"Chennai, Tamil Nadu"
+
+},{
+    "Stop":"Salem",
+    "State":"Salam, Tamil Nadu"
+},{
+    "Stop":"Delhi",
+    "State":"Delhi"
+},{
+    "Stop":"Bangalore",
+    "State":"Bangalore, Karnataka"
+},{
+    "Stop":"Mumbai",
+    "State":"Mumbai, Maharashtra"
+},{
+    "Stop":"Pune",
+    "State":"Pune, Maharashtra"
+},{
+    "Stop":"Hyderabad",
+    "State":"Hyderabad, Telangana"
+},{
+    "Stop":"Chandigarh",
+    "State":"Chandigarh"
+},{
+    "Stop":"Kolkata",
+    "State":"Kolkata, West Bengal"
+},{
+    "Stop":"Jaipur",
+    "State":"Jaipur, Rajasthan"
+},{
+    "Stop":"Lucknow",
+    "State":"Lucknow, Uttar Pradesh"
+},{
+    "Stop":"Goa",
+    "State":"Goa"
+},{
+    "Stop":"Manali",
+    "State":"Manali, Himachal Pradesh"
+},{
+    "Stop":"Shimla",
+    "State":"Shimla, Himachal Pradesh"
+},{
+    "Stop":"Haridwar",
+    "State":"Haridwar, Uttarakhand"
+},{
+    "Stop":"Dehradun",
+    "State":"Dehradun, Uttarakhand"
+},{
+    "Stop":"Ketra",
+    "State":"Ketra, Jammu and Kashmir"
+},{
+    "Stop":"Rishikesh",
+    "State":"Rishikesh, Uttarakhand"
+},{
+    "Stop":"Dharamshala",
+    "State":"Dharamshala, Himachal Pradesh"
+},{
+    "Stop":"Amritsar",
+    "State":"Amritsar, Punjab"
+},{
+    "Stop":"Agra",
+    "State":"Agra, Uttra Pradesh"
+},{
+    "Stop":"Jammu",
+    "State":"Jammu, Jammu and Kashmir"
+},{
+    "Stop":"Mussoorie",
+    "State":"Mussoorie, Uttarakhand"
+},{
+    "Stop":"Kanpur",
+    "State":"Kanpur, Uttra Pradesh"
+},{
+    "Stop":"Mcleod Ganj",
+    "State":"Mcleod Ganj, Himachal Pradesh"
+},{
+    "Stop":"Haldwani",
+    "State":"Haldwani, Uttarakhand"
+},{
+    "Stop":"Varanasi",
+    "State":"Varanasi, Uttra Pradesh"
+},{
+    "Stop":"Gorakhpur",
+    "State":"Gorakhpur, Uttra Pradesh"
+},{
+    "Stop":"Tirupati",
+    "State":"Tirupati, Andhra Pradesh"
+},{
+    "Stop":"Ooty",
+    "State":"Ooty, Tamil Nadu"
+},{
+    "Stop":"Coorg",
+    "State":"Coorg, karnataka"
+},{
+    "Stop":"Mysore",
+    "State":"Mysore, karnataka"
+},{
+    "Stop":"Mangalore",
+    "State":"Mangalore, karnataka"
+},{
+    "Stop":"Pondicherry",
+    "State":"Pondicherry"
+},{
+    "Stop":"Shirdi",
+    "State":"Shirdi, Maharashtra"
+},{
+    "Stop":"Munnar",
+    "State":"Munnar, Kerala"
+},{
+    "Stop":"Vijayawada",
+    "State":"Vijayawada, Andhra Pradesh"
+},{
+    "Stop":"Kodaikanal",
+    "State":"Kodaikanal, Tamil Nadu"
+},{
+    "Stop":"Madurai",
+    "State":"Madurai, Tamil Nadu"
+},{
+    "Stop":"Trivandrum",
+    "State":"Trivandrum, Kerala"
+},{
+    "Stop":"Kolhapur",
+    "State":"Kolhapur, Maharastra"
+},{
+    "Stop":"Mahabaleshwar",
+    "State":"Mahabaleshwar, Maharashtra"
+},{
+    "Stop":"Indore",
+    "State":"Indore, Madhya Pradesh"
+},{
+    "Stop":"Ahmedabad",
+    "State":"Ahmedabad, Gujarat"
+},{
+    "Stop":"Aurangabad",
+    "State":"Aurangabad, Maharashtra"
+},{
+    "Stop":"Ratnagiri",
+    "State":"Ratnagiri, Maharashtra"
+},{
+    "Stop":"Nasik",
+    "State":"Nasik, Maharashtra"
+},{
+    "Stop":"Nagpur",
+    "State":"Nagpur, Maharashtra"
+},{
+    "Stop":"Belgaum",
+    "State":"Belgaum, Karnataka"
+},{
+    "Stop":"Surat",
+    "State":"Surat, Gujarat"
+},{
+    "Stop":"Lonavala",
+    "State":"Lonavala, Maharashtra"
+},{
+    "Stop":"Bhopal",
+    "State":"Bhopal, Madhya Pradesh"
+},{
+    "Stop":"Latur",
+    "State":"Latur, Maharashtra"
+},{
+    "Stop":"Nanded",
+    "State":"Nanded, Maharashtra"
+},{
+    "Stop":"Jalgaon",
+    "State":"Jalgaon, Maharashtra"
+},{
+    "Stop":"Trichy",
+    "State":"Trichy, Tamil Nadu"
+},{
+    "Stop":"Nagercoil",
+    "State":"Nagercoil, Tamil Nadu"
+},{
+    "Stop":"Kumbakonam",
+    "State":"Kumbakonam, Tamil Nadu"
+},{
+    "Stop":"Velankanni",
+    "State":"Velankanni, Tamil Nadu"
+},{
+    "Stop":"Erode",
+    "State":"Erode, Tamil Nadu"
+},{
+    "Stop":"Vellore",
+    "State":"Vellore, Tamil Nadu"
+},{
+    "Stop":"Guntur",
+    "State":"Guntur, Andhra Pradesh"
+},{
+    "Stop":"Nellore",
+    "State":"Nellore, Andhra Pradesh"
+},{
+    "Stop":"Kakinada",
+    "State":"Nellore, Andhra Pradesh"
+},{
+    "Stop":"Kullu",
+    "State":"Nellore, Himachal Pradesh"
+},{
+    "Stop":"Pathnkot",
+    "State":"Pathnkot, Punjab"
+},{
+    "Stop":"Ludhiana",
+    "State":"Ludhiana, Punjab"
+},{
+    "Stop":"Bathinda",
+    "State":"Bathinda, Punjab"
+},{
+    "Stop":"Mandi",
+    "State":"Mandi, Punjab"
+},{
+    "Stop":"Bhuntar",
+    "State":"Bhuntar, Himachal Pradesh"
+},{
+    "Stop":"Bhuntar",
+    "State":"Bhuntar, Himachal Pradesh"
+},{
+    "Stop":"Kangra",
+    "State":"Kangra, Himachal Pradesh"
+},{
+    "Stop":"Patna",
+    "State":"Patna, Bihar"
+},{
+    "Stop":"Asansol",
+    "State":"Asansol, West Bengal"
+},{
+    "Stop":"Ranchi",
+    "State":"Ranchi, Jharkhand"
+},{
+    "Stop":"Mandarmani",
+    "State":"Mandarmani,  West Bengal"
+},{
+    "Stop":"Gurgaon",
+    "State":"Gurgaon,  Haryana"
+},{
+    "Stop":"Bikaner",
+    "State":"Bikaner,  Rajastan"
+},{
+    "Stop":"Noida",
+    "State":"Noida,  Uttar Pradesh"
+},{
+    "Stop":"Cochin",
+    "State":"Cochin,  Kerala"
+},{
+    "Stop":"Tiruchendur",
+    "State":"Tiruchendur,  Tamil Nadu"
+},{
+    "Stop":"Tiruchendur",
+    "State":"Tiruchendur,  Tamil Nadu"
+}]
