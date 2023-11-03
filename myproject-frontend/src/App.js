@@ -1,4 +1,4 @@
-import React from 'react';  // Don't forget to import React
+import React,{createContext, useState} from 'react';  // Don't forget to import React
 
 import HeaderPage from '../src/header/Header'; // Import your components
 import  HomePage  from './HomePage/HomePage';
@@ -10,9 +10,13 @@ import {
   Route,
 } from 'react-router-dom';
 
+export const Context = createContext()
 function App() {
+ const [update,setUpdate] = useState('')
+   
   return (
     <div className="App" style={{ fontFamily: "'Montserrat', 'Poppins', 'Work Sans', sans-serif" }}>
+      <Context.Provider value={[update,setUpdate]}>
       <HeaderPage />
       <Router>
         <Routes>
@@ -20,6 +24,7 @@ function App() {
           <Route path="/busListing/:from/:to" element={<BusListingPage />} />
         </Routes>
       </Router>
+      </Context.Provider>
     </div>
   );
 }

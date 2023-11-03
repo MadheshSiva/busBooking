@@ -39,10 +39,13 @@ const BusInputTab = () => {
 
              console.log(filterSearchData,"filterSearchData")
         },[])
+        const [fromBus, setFromBus] = useState()
+        const [toBus, setToBus] = useState()
 
         const choosedMenudata = (getData) => {
         
               setFrom(getData.Stop)
+              setFromBus(getData.busStand)
               if(from.length > 1){
                 setErrMsgFrom('')
               }
@@ -52,6 +55,7 @@ const BusInputTab = () => {
         const choosedToMenudata = (getData) => {
            
             setTo(getData.Stop)
+            setToBus(getData.busStand)
             console.log(to,"inputData")
             if (to.length > 1) {
                 setErrMsgTo('')
@@ -66,7 +70,10 @@ const BusInputTab = () => {
                  const InputFormDatas = {
                     fromLocation : from,
                     toLocation : to,
+                    fromBusName : fromBus,
+                    toBusName : toBus,
                     calendarInfo : date
+                    
                  }
                  if(from == "" ){
                     console.log(from,"fromData")
@@ -137,8 +144,9 @@ const BusInputTab = () => {
                                             <DirectionsBus className="text-[#ff1a4f]" />
                                             <div>
                                                 <p className="mt-1 font-semibold">{seachedData.Stop}</p>
+                                                <p className="text-xs mt-1">{seachedData.busStand}</p>
                                                 <p className="mt-1 font-semibold">{seachedData.State}</p>
-
+                                                
                                             </div>
                                         </div>
                                     ))}
@@ -182,6 +190,7 @@ const BusInputTab = () => {
                                             <DirectionsBus className="text-[#ff1a4f]" />
                                             <div>
                                                 <p className="mt-1 font-semibold">{seachedData.Stop}</p>
+                                                <p className="mt-1 text-xs">{seachedData.busStand}</p>
                                                 <p className="mt-1 font-semibold">{seachedData.State}</p>
 
                                             </div>

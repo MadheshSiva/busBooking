@@ -1,252 +1,327 @@
 [{
     "Stop":"Coimbatore",
+    "busStand":"Gandhipuram Central Bus Terminus",
     "State":"Coimbatore, Tamil Nadu"
 },
 {
     "Stop":"Chennai",
+    "busStand":"CHENNAI MOFUSSIL BUS TERMINUS (CMBT)",
     "State":"Chennai, Tamil Nadu"
 
 },{
     "Stop":"Salem",
+    "busStand":"Dr.M.G.R Central Bus Terminus",
     "State":"Salam, Tamil Nadu"
 },{
     "Stop":"Delhi",
+    "busStand":"The Maharana Pratap Interstate Bus Terminus (ISBT)",
     "State":"Delhi"
 },{
     "Stop":"Bangalore",
+    "busStand":"Kempegowda Bus Station (KBS)",
     "State":"Bangalore, Karnataka"
 },{
     "Stop":"Mumbai",
+    "busStand":"Mumbai Central ST Bus Stand",
     "State":"Mumbai, Maharashtra"
 },{
     "Stop":"Pune",
+    "busStand":"Swargate Bus Station",
     "State":"Pune, Maharashtra"
 },{
     "Stop":"Hyderabad",
+    "busStand":"MAHATMA GANDHI BUS STATION",
     "State":"Hyderabad, Telangana"
 },{
     "Stop":"Chandigarh",
+    "busStand":"ISBT(Inter State Bus Terminus) Chandigarh",
     "State":"Chandigarh"
 },{
     "Stop":"Kolkata",
+    "busStand":"Kolkata Station Bus Terminal",
     "State":"Kolkata, West Bengal"
 },{
     "Stop":"Jaipur",
+    "busStand":"Jaipur Bus Stand",
     "State":"Jaipur, Rajasthan"
 },{
     "Stop":"Lucknow",
+    "busStand":"Alambagh Bus Stand",
     "State":"Lucknow, Uttar Pradesh"
 },{
     "Stop":"Goa",
+    "busStand":"Panaji Bus Stand ",
     "State":"Goa"
 },{
     "Stop":"Manali",
+    "busStand":"Manali Bus Stand",
     "State":"Manali, Himachal Pradesh"
 },{
     "Stop":"Shimla",
+    "busStand":"New Bus Stand Shimla",
     "State":"Shimla, Himachal Pradesh"
 },{
     "Stop":"Haridwar",
+    "busStand":"Haridwar Bus Stand",
     "State":"Haridwar, Uttarakhand"
 },{
     "Stop":"Dehradun",
+    "busStand":"ISBT Dehradun - Dehradun",
     "State":"Dehradun, Uttarakhand"
 },{
-    "Stop":"Ketra",
-    "State":"Ketra, Jammu and Kashmir"
+    "Stop":"Katra",
+    "busStand":"Katra Bus Stand",
+    "State":"Katra, Jammu and Kashmir"
 },{
     "Stop":"Rishikesh",
+    "busStand":"Rishikesh ISBT Bus Stand (Inter State Bus Terminal)",
     "State":"Rishikesh, Uttarakhand"
 },{
     "Stop":"Dharamshala",
+    "busStand":"Dharamshala Bus Stand",
     "State":"Dharamshala, Himachal Pradesh"
 },{
     "Stop":"Amritsar",
+    "busStand":"Shaheed Madan Lal Dhingra Interstate Bus",
     "State":"Amritsar, Punjab"
 },{
     "Stop":"Agra",
+    "busStand":"Idgah bus stand",
     "State":"Agra, Uttra Pradesh"
 },{
     "Stop":"Jammu",
+    "busStand":"General Bus Stand",
     "State":"Jammu, Jammu and Kashmir"
 },{
     "Stop":"Mussoorie",
+    "busStand":"Mussoorie Bus Stand",
     "State":"Mussoorie, Uttarakhand"
 },{
     "Stop":"Kanpur",
+    "busStand":"Kanpur Interstate Bus Station",
     "State":"Kanpur, Uttra Pradesh"
 },{
     "Stop":"Mcleod Ganj",
+    "busStand":"Mecleod Ganj Bus Stand",
     "State":"Mcleod Ganj, Himachal Pradesh"
 },{
     "Stop":"Haldwani",
+    "busStand":"Haldwani Bus Station",
     "State":"Haldwani, Uttarakhand"
 },{
     "Stop":"Varanasi",
+    "busStand":"Varanasi Bus Stand",
     "State":"Varanasi, Uttra Pradesh"
 },{
     "Stop":"Gorakhpur",
+    "busStand":"Gorakhpur Bus Stand",
     "State":"Gorakhpur, Uttra Pradesh"
 },{
     "Stop":"Tirupati",
+    "busStand":"Srinivasa Bus Stand",
     "State":"Tirupati, Andhra Pradesh"
 },{
     "Stop":"Ooty",
+    "busStand":"Nilgiris - Ooty Bus Stand",
     "State":"Ooty, Tamil Nadu"
 },{
     "Stop":"Coorg",
+    "busStand":"KSRTC Bus Station",
     "State":"Coorg, karnataka"
 },{
     "Stop":"Mysore",
+    "busStand":"Mysore City Bus Stand",
     "State":"Mysore, karnataka"
 },{
     "Stop":"Mangalore",
+    "busStand":"Mangalore Service Bus Stand",
     "State":"Mangalore, karnataka"
 },{
     "Stop":"Pondicherry",
+    "busStand":"Rajiv gandhi Central bus stand",
     "State":"Pondicherry"
 },{
     "Stop":"Shirdi",
+    "busStand":"MAHATMA GANDHI BUS STATION ",
     "State":"Shirdi, Maharashtra"
 },{
     "Stop":"Munnar",
+    "busStand":"Munnar KSRTC Bus Stand",
     "State":"Munnar, Kerala"
 },{
     "Stop":"Vijayawada",
+    "busStand":"Pandit Nehru Bus Terminal Vijayawada",
     "State":"Vijayawada, Andhra Pradesh"
 },{
     "Stop":"Kodaikanal",
+    "busStand":"Kodaikanal Bus Station",
     "State":"Kodaikanal, Tamil Nadu"
 },{
     "Stop":"Madurai",
+    "busStand":"M.G.R Bus stand Madurai",
     "State":"Madurai, Tamil Nadu"
 },{
     "Stop":"Trivandrum",
+    "busStand":"Trivandrum Central KSRTC Bus Terminal",
     "State":"Trivandrum, Kerala"
 },{
     "Stop":"Kolhapur",
+    "busStand":"Kolhapur Central Bus Stand",
     "State":"Kolhapur, Maharastra"
 },{
     "Stop":"Mahabaleshwar",
+    "busStand":"Mahabaleshwar Bus Stand",
     "State":"Mahabaleshwar, Maharashtra"
 },{
     "Stop":"Indore",
+    "busStand":"Sarwate bus stand of Indore",
     "State":"Indore, Madhya Pradesh"
 },{
     "Stop":"Ahmedabad",
+    "busStand":"GSRTC Central Bus Depot",
     "State":"Ahmedabad, Gujarat"
 },{
     "Stop":"Aurangabad",
+    "busStand":"Aurangabad Central Bus Station",
     "State":"Aurangabad, Maharashtra"
 },{
     "Stop":"Ratnagiri",
+    "busStand":"Rahataghar Ratnagiri bus stand",
     "State":"Ratnagiri, Maharashtra"
 },{
     "Stop":"Nasik",
+    "busStand":"Nashik Busstand",
     "State":"Nasik, Maharashtra"
 },{
     "Stop":"Nagpur",
+    "busStand":"ST Bus Stand Nagpur",
     "State":"Nagpur, Maharashtra"
 },{
     "Stop":"Belgaum",
+    "busStand":"Belagaum/ BELAGAVI Central Bus Stand",
     "State":"Belgaum, Karnataka"
 },{
     "Stop":"Surat",
+    "busStand":"Surat Central GSRTC Bus Station",
     "State":"Surat, Gujarat"
 },{
     "Stop":"Lonavala",
+    "busStand":"Lonavala ST Stand",
     "State":"Lonavala, Maharashtra"
 },{
     "Stop":"Bhopal",
+    "busStand":"Bhopal Bus Stand",
     "State":"Bhopal, Madhya Pradesh"
 },{
     "Stop":"Latur",
+    "busStand":"Latur Bus Stand",
     "State":"Latur, Maharashtra"
 },{
     "Stop":"Nanded",
+    "busStand":"Nanded Bus Stand",
     "State":"Nanded, Maharashtra"
 },{
     "Stop":"Jalgaon",
+    "busStand":"Jalgaon bus stand",
     "State":"Jalgaon, Maharashtra"
 },{
     "Stop":"Trichy",
+    "busStand":"Tiruchirappalli Central Bus Stand",
     "State":"Trichy, Tamil Nadu"
 },{
     "Stop":"Nagercoil",
+    "busStand":"Christopher Vadasery Bus Stand",
     "State":"Nagercoil, Tamil Nadu"
 },{
     "Stop":"Kumbakonam",
+    "busStand":"Kumbakonam Bus Stand",
     "State":"Kumbakonam, Tamil Nadu"
 },{
     "Stop":"Velankanni",
+    "busStand":"Velankanni Bus stand",
     "State":"Velankanni, Tamil Nadu"
 },{
     "Stop":"Erode",
+    "busStand":"Erode Silver Jubilee Central Bus Stand",
     "State":"Erode, Tamil Nadu"
 },{
     "Stop":"Vellore",
+    "busStand":"Vellore Bus Stand",
     "State":"Vellore, Tamil Nadu"
 },{
     "Stop":"Guntur",
+    "busStand":"NTR Bus Station",
     "State":"Guntur, Andhra Pradesh"
 },{
     "Stop":"Nellore",
+    "busStand":"Nellore Bus Stand",
     "State":"Nellore, Andhra Pradesh"
 },{
     "Stop":"Kakinada",
+    "busStand":"Kakinada RTC Bus Complex and Depot",
     "State":"Nellore, Andhra Pradesh"
 },{
     "Stop":"Kullu",
+    "busStand":"New Bus stand Kullu",
     "State":"Nellore, Himachal Pradesh"
 },{
-    "Stop":"Pathnkot",
+    "Stop":"Pathankot",
+    "busStand":"Pathankot Bus Stand",
     "State":"Pathnkot, Punjab"
 },{
     "Stop":"Ludhiana",
+    "busStand":"Ludhiana Bus Stand",
     "State":"Ludhiana, Punjab"
 },{
     "Stop":"Bathinda",
+    "busStand":"Bathinda Bus Station",
     "State":"Bathinda, Punjab"
 },{
     "Stop":"Mandi",
+    "busStand":"Mandi Bus Stand",
     "State":"Mandi, Punjab"
 },{
     "Stop":"Bhuntar",
-    "State":"Bhuntar, Himachal Pradesh"
-},{
-    "Stop":"Bhuntar",
+    "busStand":"Bhuntar Bus Stand",
     "State":"Bhuntar, Himachal Pradesh"
 },{
     "Stop":"Kangra",
+    "busStand":"Kangra Bus Stand",
     "State":"Kangra, Himachal Pradesh"
 },{
     "Stop":"Patna",
+    "busStand":"Mithapur Bus Stand",
     "State":"Patna, Bihar"
 },{
     "Stop":"Asansol",
+    "busStand":"Asansol bus stand",
     "State":"Asansol, West Bengal"
 },{
     "Stop":"Ranchi",
+    "busStand":"Ranchi Government Bus Stand",
     "State":"Ranchi, Jharkhand"
 },{
     "Stop":"Mandarmani",
+    "busStand":"Mandarmani Chowlkhola Bus Stand",
     "State":"Mandarmani,  West Bengal"
 },{
     "Stop":"Gurgaon",
+    "busStand":"Gurugram Bus Stand",
     "State":"Gurgaon,  Haryana"
 },{
     "Stop":"Bikaner",
+    "busStand":"Bikaner Roadways Bus Stand",
     "State":"Bikaner,  Rajastan"
 },{
     "Stop":"Noida",
+    "busStand":"Noida Bus Stand",
     "State":"Noida,  Uttar Pradesh"
 },{
     "Stop":"Cochin",
+    "busStand":"KSRTC Bus Stand",
     "State":"Cochin,  Kerala"
 },{
     "Stop":"Tiruchendur",
-    "State":"Tiruchendur,  Tamil Nadu"
-},{
-    "Stop":"Tiruchendur",
+    "busStand":"Thiyagi Bhagat Singh bus stand",
     "State":"Tiruchendur,  Tamil Nadu"
 }]
