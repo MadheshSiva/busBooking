@@ -48,6 +48,12 @@ const view  = useSelector( (state) => state.bus.busData )
   setId(getDatas._id)
   setBerthCount(getDatas)
   dispatch(deails(getDatas))
+  const BusInfo = {
+    busName : getDatas.busName,
+    busType : getDatas.busType,
+    price : getDatas.price
+  }
+  sessionStorage.setItem('BusInfo', JSON.stringify(BusInfo))
   console.log(getDatas,"getDatas")
 
   } 

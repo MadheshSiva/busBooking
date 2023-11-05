@@ -3,6 +3,7 @@ import React,{createContext, useState} from 'react';  // Don't forget to import 
 import HeaderPage from '../src/header/Header'; // Import your components
 import  HomePage  from './HomePage/HomePage';
 import  BusListingPage  from './busListing/BusListingPage';
+import PaymentSuccess from './paymentPage/paymentSuccess';
 
 import {
   BrowserRouter as Router,
@@ -21,7 +22,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/busListing/:from/:to" element={<BusListingPage />} />
+          <Route path="/busListing" element={<BusListingPage />} />
+          <Route path='/success' element={<PaymentSuccess/>} />
         </Routes>
       </Router>
       </Context.Provider>

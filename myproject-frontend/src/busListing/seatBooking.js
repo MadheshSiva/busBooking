@@ -25,8 +25,8 @@ const SeatsBooking = ({ berthCount }) => {
         }
         let seatCount;
         const seatNumber = (seatNum) => {
-            
-             
+            seatCount+=seatNum
+            sessionStorage.setItem('seatNum', JSON.stringify(seatCount))
             setUpdate((prev) => prev += `${seatNum},`)
             console.log(update, "seatNum")
         }
@@ -122,7 +122,8 @@ const SeatsBooking = ({ berthCount }) => {
         const seatNumber = (seatNum) => {
             console.log(seatNum, "seatNum")
             
-            //seatCount+=seatNum
+            seatCount+=seatNum
+            sessionStorage.setItem('seatNum', JSON.stringify(seatCount))
             setUpdate((prev) => prev += `${seatNum},`)
         }
         return (

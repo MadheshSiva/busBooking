@@ -3,6 +3,8 @@ const bodyParser = require('body-parser');
 const { createData } = require('./busData');
 const { busCardGetdatas } = require('./getBusCardDatas');
 const cors = require('cors'); // Import the cors package
+require('dotenv').config()
+const {Payment} = require('./strip')
 
 const app = express();
 const PORT = 3060;
@@ -12,9 +14,11 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 // Enable CORS for requests from http://localhost:3000
+// Enable CORS for requests from http://localhost:3000/busListing/Coimbatore/Salem
 app.use(cors({
-  origin: 'http://localhost:3000', // Replace with the actual frontend URL
+  origin: 'http://localhost:3000',
 }));
+
 
 // Router
 const Router = express.Router();
@@ -24,7 +28,8 @@ app.use('/', createdData);
 
 const gotCardDatas = Router.get('/getCardDatas', busCardGetdatas);
 app.use('/', gotCardDatas);
-
+const paymentProcess = Router.post('/paymentPage',Payment);
+app.use('/',paymentProcess)
 app.listen(PORT, () => {
   console.log('Server started');
 });

@@ -3,6 +3,7 @@ import { Context } from "../App"
 import { useSelector } from "react-redux"
 import moment from "moment";
 import {Button} from "@mui/material"
+import { json } from "react-router-dom";
 
 const BookingDetails = () => {
 
@@ -21,8 +22,35 @@ const BookingDetails = () => {
 
     
     const cardData = useSelector((state) => state.bus.busData)
-    // console.log(cardDatass,"cardDattaa")
-    console.log(cardData, "cardDattaa")
+    //  console.log(sets.slice(0,-1),"setsss")
+    //  console.log(cardData.busName,
+    //     cardData.busType,
+    //     cardData.price,
+    //     sets.slice(0,-1), "cardDattaa")
+    const submitBooking = () => {
+       fetch("http://localhost:3060/paymentPage", {
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        mode:"cors",
+        body: JSON.stringify({
+            items:[{
+               busName:cardData.busName,
+               busType:cardData.busType,
+               price:cardData.price,
+               seatNumbers:sets.slice(0,-1)
+            }]
+        }) 
+       }).then(res => {
+        if(res.ok) return res.json()
+      return  res.json().then(json => Promise.reject(json))
+    }).then(({url}) =>{
+         window.location = url
+    }).catch( e => {
+        console.log({message: e.message})
+    })
+    }
     return (
         <>
             <div className="pl-3 mt-14">
@@ -63,7 +91,7 @@ const BookingDetails = () => {
                 <h1 className="text-[10px] ml-3 text-neutral-500">Taxes will be calculated during payment </h1>
             </div>
             <div className="mt-6 ml-3 flex justify-center">
-                <Button style={{border: "1px solid #fa4d68", background:"#fa4d68", color:"white" , fontWeight :"bold"}}>Proceed to Book</Button>
+                <Button style={{border: "1px solid #fa4d68", background:"#fa4d68", color:"white" , fontWeight :"bold"}} onClick={submitBooking}>Proceed to Book</Button>
             </div>
         </>
     )

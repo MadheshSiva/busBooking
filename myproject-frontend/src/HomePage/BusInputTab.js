@@ -96,7 +96,7 @@ const BusInputTab = () => {
                   }
                   if (from !== '' && to!=='' && from !== to  && date !== null){
                     sessionStorage.setItem('InputFormDatas',JSON.stringify(InputFormDatas))
-                    const url = `/busListing/${from}/${to}`
+                    const url = `/busListing`
                     navigation(`${url}`)
                   }
                   
