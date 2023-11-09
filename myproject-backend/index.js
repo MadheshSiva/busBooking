@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { createData } = require('./busData');
 const { busCardGetdatas } = require('./getBusCardDatas');
+const {emailService} = require('./emailService')
 const cors = require('cors'); // Import the cors package
 require('dotenv').config()
 const {Payment} = require('./strip')
@@ -25,7 +26,8 @@ const Router = express.Router();
 
 const createdData = Router.post('/createData', createData);
 app.use('/', createdData);
-
+const serviceSent = Router.post('/emailService', emailService)
+app.use('/',serviceSent)
 const gotCardDatas = Router.get('/getCardDatas', busCardGetdatas);
 app.use('/', gotCardDatas);
 const paymentProcess = Router.post('/paymentPage',Payment);
